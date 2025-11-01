@@ -50,7 +50,25 @@ Open the development server link shown in the terminal (defaults to `http://loca
 
 ## Deployment
 
-Run `npm run build` and deploy the contents of the `dist` folder to any static hosting provider (Netlify, Vercel, GitHub Pages, etc.).
+### Deploy to Vercel (Recommended)
+
+This project is optimized for Vercel deployment:
+
+1. **One-Click Deploy**: 
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/HS245/RS-Dental-Clinic-Guwahati-Website)
+
+2. **Manual Deploy**:
+   - Install Vercel CLI: `npm i -g vercel`
+   - Run: `vercel`
+   - Follow the prompts
+
+3. **GitHub Integration**:
+   - Connect your GitHub repository to Vercel
+   - Automatic deployments on every push to main branch
+
+### Other Hosting Providers
+
+Run `npm run build` and deploy the contents of the `dist` folder to any static hosting provider (Netlify, GitHub Pages, etc.).
 
 ## Technologies Used
 

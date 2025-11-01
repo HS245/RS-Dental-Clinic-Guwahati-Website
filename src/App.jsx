@@ -3,7 +3,6 @@ import "./App.css";
 import logo from "./assets/logo.png";
 import drTkImage from "./assets/Dr. Tk.jpeg"; // Dr. Taslima Khan image
 import dentalMicroscopy from "./assets/dental-microscopy.mp4";
-import dentalV2 from "./assets/dental-v2.webm";
 
 const StarRating = () => {
   return (
@@ -100,26 +99,7 @@ function AppointmentForm() {
   const [submitting, setSubmitting] = useState(false);
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    
-    // Handle mobile number formatting
-    if (name === 'mobile') {
-      // Remove any non-digits
-      const cleaned = value.replace(/\D/g, '');
-      // Limit to 10 digits
-      const formatted = cleaned.slice(0, 10);
-      setForm({ ...form, [name]: formatted });
-      return;
-    }
-
-    // Handle time selection
-    if (name === 'time' && value === "Select preferred time") {
-      setForm({ ...form, [name]: "" });
-      return;
-    }
-
-    // For all other fields
-    setForm({ ...form, [name]: value });
+    setForm({ ...form, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
