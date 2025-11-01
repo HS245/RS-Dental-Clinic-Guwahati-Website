@@ -7,7 +7,7 @@ A modern, responsive website for RS Dental Clinic in Guwahati, built with React 
 - **Clinic Branding**: RS Dental Clinic with Dr. Taslima Khan as lead dentist
 - **Responsive Navigation**: Hamburger menu for mobile with hover effects on desktop
 - **Appointment Form**: Online booking system with fields for name, email, mobile, preferred date/time, and message
-- **Services Section**: Preventive Care, Cosmetic Dentistry, Restorative Solutions, and Emergency Dentistry
+- **Services Section**: Preventive Care, Cosmetic Dentistry, Restorative Solutions.
 - **About Section**: Information about Dr. Taslima Khan and the clinic
 - **Testimonials**: Real patient stories and reviews
 - **Contact Information**: Address, phone, email, and office hours
@@ -54,10 +54,11 @@ Open the development server link shown in the terminal (defaults to `http://loca
 
 This project is optimized for Vercel deployment:
 
-1. **One-Click Deploy**: 
+1. **One-Click Deploy**:
    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/HS245/RS-Dental-Clinic-Guwahati-Website)
 
 2. **Manual Deploy**:
+
    - Install Vercel CLI: `npm i -g vercel`
    - Run: `vercel`
    - Follow the prompts
