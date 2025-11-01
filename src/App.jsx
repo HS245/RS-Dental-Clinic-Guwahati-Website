@@ -18,24 +18,24 @@ const StarRating = () => {
 
 const services = [
   {
-    title: "Preventive Care",
+    title: "Preventive Dental Care Guwahati",
     description:
-      "Comprehensive exams, cleanings, and digital X-rays keep every smile healthy year-round.",
+      "Comprehensive dental exams, professional teeth cleanings, and advanced digital X-rays to keep every smile healthy year-round. Regular preventive care at our Dhirenpara clinic helps avoid costly dental problems.",
   },
   {
-    title: "Cosmetic Dentistry",
+    title: "Cosmetic Dentistry Services",
     description:
-      "Transformations with professional whitening, veneers, and bonding tailored to your goals.",
+      "Professional smile transformations with teeth whitening, porcelain veneers, and dental bonding tailored to your aesthetic goals. Achieve the perfect smile at Guwahati's premier cosmetic dental clinic.",
   },
   {
-    title: "Restorative Solutions",
+    title: "Restorative Dental Solutions",
     description:
-      "Durable crowns, implants, and tooth-colored fillings designed for lasting comfort and function.",
+      "Durable dental crowns, implants, and natural-looking tooth-colored fillings designed for lasting comfort and optimal function. Expert restorative dentistry in Guwahati, Assam.",
   },
   {
-    title: "Emergency Dentistry",
+    title: "Emergency Dental Care",
     description:
-      "Same-day relief for toothaches, chips, and other urgent dental concerns when you need it most.",
+      "Same-day emergency dental relief for severe toothaches, dental trauma, chips, and other urgent dental concerns. Available when you need immediate dental care in Guwahati.",
   },
 ];
 
@@ -323,7 +323,7 @@ function App() {
             alignItems: "center",
           }}
         >
-          <img src={logo} alt="Clinic Logo" className="Clinic-logo" />
+          <img src={logo} alt="RS Dental Clinic Guwahati Logo - Best Dentist in Dhirenpara" className="Clinic-logo" />
           RS Dental Clinic
         </a>
         <HamburgerMenu links={navLinks} />
@@ -335,11 +335,11 @@ function App() {
             <p className="hero-tagline">
               Gentle, personalized dentistry for every smile
             </p>
-            <h1>Your Neighborhood Home for Confident, Healthy Smiles</h1>
+            <h1>Best Dental Clinic in Guwahati - Your Neighborhood Home for Confident, Healthy Smiles</h1>
             <p className="hero-description">
-              Dr. Taslima Khan and our team deliver high-quality, compassionate
-              care using advanced technology. New patients welcome, same-day and
-              evening appointments available.
+              Dr. Taslima Khan and our experienced team at RS Dental Clinic deliver high-quality, compassionate
+              dental care in Dhirenpara, Guwahati using advanced technology. New patients welcome, same-day and
+              evening appointments available. Serving Guwahati, Assam with excellence.
             </p>
             <div className="hero-actions">
               <a
@@ -381,11 +381,11 @@ function App() {
       <main>
         <section className="section services" id="services">
           <div className="section-heading">
-            <h2>Comprehensive Dental Services Under One Roof</h2>
+            <h2>Comprehensive Dental Services in Guwahati Under One Roof</h2>
             <p>
-              Customized treatment plans keep your smile bright. We focus on
-              prevention first and support you with restorative and cosmetic
-              care when you need it.
+              At RS Dental Clinic Dhirenpara, our customized treatment plans keep your smile bright. We focus on
+              prevention first and support you with advanced restorative and cosmetic dental care when you need it.
+              Serving patients across Guwahati, Assam with state-of-the-art dental technology.
             </p>
           </div>
           <div className="grid">
@@ -416,21 +416,20 @@ function App() {
 
         <section className="section about" id="about">
           <div className="section-heading">
-            <h2>About RS Dental Clinic</h2>
+            <h2>About RS Dental Clinic Guwahati - Leading Dental Care in Dhirenpara</h2>
             <p>
-              Located at {clinic.address}, RS Dental Clinic provides
-              high-quality, compassionate dental care in Guwahati, Assam. Our
-              clinic uses advanced technology and a calming environment to
-              ensure patient comfort. Led by {clinic.doctor.name}, patients of
-              all ages receive personalized and gentle care, with services
-              including cleanings, crowns, restorations, fluoride treatments,
-              extractions, Invisalign, sealants and More.
+              Located at {clinic.address}, RS Dental Clinic is Guwahati's trusted dental care provider, offering
+              high-quality, compassionate dental treatment in Dhirenpara, Assam. Our modern dental clinic uses 
+              advanced technology and maintains a calming environment to ensure maximum patient comfort. Led by 
+              experienced dentist {clinic.doctor.name}, patients of all ages receive personalized and gentle dental care, 
+              with comprehensive services including professional teeth cleanings, dental crowns, restorations, 
+              fluoride treatments, tooth extractions, orthodontics, dental implants, cosmetic dentistry, and emergency dental services.
             </p>
           </div>
           <div className="grid team-grid">
             <div className="team-card">
               <div className="avatar">
-                <img src={drTkImage} alt="Dr. Taslima Khan" />
+                <img src={drTkImage} alt="Dr. Taslima Khan - Best Dentist in Guwahati, Lead Dentist at RS Dental Clinic Dhirenpara" />
               </div>
               <h3>{clinic.doctor.name}</h3>
               <div className="role">{clinic.doctor.role}</div>
@@ -459,10 +458,10 @@ function App() {
 
         <section className="section appointment" id="appointment">
           <div className="section-heading">
-            <h2>Schedule Your Appointment</h2>
+            <h2>Schedule Your Dental Appointment in Guwahati Online</h2>
             <p>
-              Book online with Dr. Taslima Khan and receive personalized dental
-              care.
+              Book your dental appointment online with Dr. Taslima Khan at RS Dental Clinic Dhirenpara 
+              and receive personalized, professional dental care in Guwahati, Assam. Same-day appointments available.
             </p>
           </div>
           <AppointmentForm />
@@ -471,11 +470,11 @@ function App() {
         <section className="section contact" id="contact">
           <div className="contact-card">
             <div>
-              <h2>Visit us and experience exceptional dental care</h2>
+              <h2>Visit RS Dental Clinic Guwahati and Experience Exceptional Dental Care</h2>
               <p>
-                Call us or book online anytime. We will help with personalized
-                dental treatment plans in Guwahati.Best Dental clinic in
-                Guwahati, Assam.
+                Call us at +91 6001868643 or book your dental appointment online anytime. We provide personalized
+                dental treatment plans in Guwahati, Dhirenpara. Recognized as the best dental clinic in
+                Guwahati, Assam with state-of-the-art facilities and experienced dental professionals.
               </p>
               <div className="contact-actions">
                 <a

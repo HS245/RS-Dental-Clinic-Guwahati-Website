@@ -1,0 +1,21 @@
+{
+  "name": "RS Dental Clinic Guwahati - Best Dental Care",
+  "short_name": "RS Dental Clinic",
+  "description": "Top-rated dental clinic in Guwahati offering comprehensive dental care by Dr. Taslima Khan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#21a0a0",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "medical", "business"],
+  "lang": "en-IN",
+  "scope": "/",
+  "orientation": "portrait-primary"
+}

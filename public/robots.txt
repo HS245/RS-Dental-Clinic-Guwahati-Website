@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Sitemap
+Sitemap: https://rs-dental-clinic-guwahati-website-alrvrptox.vercel.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
